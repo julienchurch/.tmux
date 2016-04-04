@@ -51,6 +51,6 @@ Two of the biggest things tmux is useful for is conserving screen real estate an
 ###How2get
 
 1. `cd` into your home directory on your server (`cd` with no arguments is actually the shortcut for this, btw) and `git clone https://github.com/julienchurch/.tmux`. 
-2. `cd` into the new directory and `./bootstrap.sh`; this just creates a symbolic link in your home directory to the config file in `.tmux`. (I do this because it's way easier to manage, share, and reuse dotfiles in new servers/machines with Git.)
+2. `cd` into the newly-minted `.tmux` directory and `./bootstrap.sh`; this just creates a symbolic link in your home directory to the config file in `.tmux`. (I do this because it's way easier to manage, share, and reuse dotfiles in new servers/machines with Git.)
 3. `tmux` and check it out.
 
