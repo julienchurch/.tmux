@@ -35,7 +35,7 @@ Where `<directional key>` can be any of the following values:
 
 
 ##For Austin
-Two of the biggest things tmux is useful for is conserving screen real estate and for being able to save what you're doing. If you shell into a server and open tmux, the next time you shell in you don't have to reopen all the programs from last time. Your old tmux session will still be running, and if you reattach to it, all your work will still be there. You can pick up where you left of without skipping a beat.
+Two of the biggest things tmux is useful for is conserving screen real estate and for being able to save what you're doing. If you shell into a server and open tmux, the next time you shell in you don't have to reopen all the programs from last time. Your old tmux session will still be running, and if you reattach to it, all your work will still be there. You can pick up where you left of without skipping a beat. This is also how I stay logged into IRC persistently: it's just running in a tmux session in the background that I reattach to.
 
 ###Basic use
 
@@ -45,7 +45,16 @@ Two of the biggest things tmux is useful for is conserving screen real estate an
 
 **Attaching to tmux session** `tmux attach -t <session name>`  
 
+**Renaming a tmux session** `tmux rename -t <old session name> <new session name>`  
+
 **Killing a tmux session** `tmux kill-session -t <session name>`  
 
 **Killing a pane in your current session** `Control-a x y`  
 (Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.)  
+
+###How2get
+
+1. `cd` into your home directory on your server (`cd` with no arguments is actually the shortcut for this, btw) and `git clone https://github.com/julienchurch/.tmux`. 
+2. `cd` into the new directory and `./bootstrap.sh`; this just creates a symbolic link in your home directory to the config file in `.tmux`. (I do this because it's way easier to manage, share, and reuse dotfiles in new servers/machines with Git.)
+3. `tmux` and check it out.
+
