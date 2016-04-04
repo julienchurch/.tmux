@@ -37,18 +37,13 @@ Where `<directional key>` can be any of the following values:
 ##For Austin
 Two of the biggest things tmux is useful for is conserving screen real estate and for being able to save what you're doing. If you shell into a server and open tmux, the next time you shell in you don't have to reopen all the programs from last time. Your old tmux session will still be running, and if you reattach to it, all your work will still be there. You can pick up where you left of without skipping a beat. This is also how I stay logged into IRC persistently: it's just running in a tmux session in the background that I reattach to.
 
-###Basic use
+###Basic useage
 
 **Opening a tmux session** `tmux`  
-
 **Viewing open tmux sessions** `tmux ls`  
-
 **Attaching to tmux session** `tmux attach -t <session name>`  
-
 **Renaming a tmux session** `tmux rename -t <old session name> <new session name>`  
-
 **Killing a tmux session** `tmux kill-session -t <session name>`  
-
 **Killing a pane in your current session** `Control-a x y`  
 (Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.)  
 
