@@ -7,7 +7,7 @@ Current setup includes remapping of default escape sequence, remapping of split 
 **Prefix command** `Control-a`  
 Use this command to execute other shortcut commands.  
 
-**Split screen vertically** `Control-a |`  
+**Split screen vertically** `Control-a \`  
 Makes two panes appear side-by-side in the tmux session.  
 
 **Split screen horizontally** `Control-a -`  
