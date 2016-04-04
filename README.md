@@ -38,7 +38,7 @@ Where `<directional key>` can be any of the following values:
 ##For Austin
 Two of the biggest things tmux is useful for is conserving screen real estate and for being able to save what you're doing. If you shell into a server and open tmux, the next time you shell in you don't have to reopen all the programs from last time. Your old tmux session will still be running, and if you reattach to it, all your work will still be there. You can pick up where you left off without skipping a beat. This is also how I stay logged into IRC persistently: it's just running in a tmux session in the background that I reattach to.
 
-Also, anything surrounded by angle brackets `<>` is the general way of saying "replace this parameter (including the angle brackets themselves) with a required value." (You'll see it in function definitions a lot, too, where `<>` represent required values, and `[]` represents optional arguments). Bottom line: don't type the angle brackets when you provide, say, a session name to `tmux attach -t <session name>`.
+Also, anything surrounded by angle brackets `<>` is the general way of saying "replace this parameter (including the angle brackets themselves) with a required value." (You'll see it in function definitions a lot, too, where `<parameter name>` represent required values, and `[parameter name]` represents optional arguments). Bottom line: don't type the angle brackets when you provide, say, a session name to `tmux attach -t <session name>`.
 
 ###Basic usage
 
