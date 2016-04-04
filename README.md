@@ -31,6 +31,7 @@ Where `<directional key>` can be any of the following values:
 * `l`: resize horizontally to the right   
 * `k`: resize vertically upwards   
 * `j`: resize vertically downwards   
+
 **NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional keys.   
 
 
