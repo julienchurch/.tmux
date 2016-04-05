@@ -47,7 +47,7 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 **Attaching to a tmux session** `tmux attach -t <session name>`  
 **Renaming a tmux session** `tmux rename -t <old session name> <new session name>`  
 **Killing a tmux session** `tmux kill-session -t <session name>`  
-**Killing a pane in your current session** `Control-a x y`  
+**Killing a pane in your current session** `Control-a x y` (Alternatively, `Control-d`) 
 (Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.)  
 
 ###How2get
