@@ -2,7 +2,7 @@
 
 Current setup includes remapping of default escape sequence, remapping of split commands, vim-like remapping of window navigation commands, and more. This is a work in progress.
 
-## Basic commands remapped from default
+## Commands remapped from default
 
 **Prefix command**: `Control-a`  
 Use this command to execute other shortcut commands.  
