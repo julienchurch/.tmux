@@ -47,18 +47,24 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 ### Basic usage
 
 **Opening a tmux session**: `tmux`  
+Opens a session and assigns to it a numeric ID (found in the bottom left-hand corner) that can be used to reopen it at a later time.
 
 **Viewing open tmux sessions**: `tmux ls`  
+Lists all currently-open tmux sessions by their default ID or any unique name you've given them.
 
 **Attaching to a tmux session**: `tmux attach -t <session name>`  
+Reopens the target session with all your old panes and programs still running.  
 
 **Renaming a tmux session**: `tmux rename -t <old session name> <new session name>`  
+Pretty obvious.
 
 **Killing a tmux session**: `tmux kill-session -t <session name>`  
 Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
+Removes the target session's entire workspace.   
 
 **Killing a pane in your current session**: `Control-a x y`  
-Alternatively `Control-d`, the default EOF signal (can only used to kill the pane currently in focus).  
+Alternatively `Control-d`, the default EOF signal.
+Closes the pane currently in focus.
 >**NB**: Technically, the kill-pane command `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.  
 
 ###How2get
