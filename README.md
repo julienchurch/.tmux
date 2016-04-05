@@ -54,5 +54,5 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 
 1. `cd` into your home directory on your server (`cd` with no arguments is actually the shortcut for this, btw) and `git clone https://github.com/julienchurch/.tmux`. 
 2. `cd` into the newly-minted `.tmux` directory and `./bootstrap.sh`; this just creates a symbolic link in your home directory to the config file in `.tmux`. 
-3. `tmux` and check it out.
+3. Run `tmux` and check it out.
 
