@@ -58,14 +58,14 @@ Reopens the target session with all your old panes and programs still running.
 **Renaming a tmux session**: `tmux rename -t <old session name> <new session name>`  
 Changes numeric ID of session to something more descriptive (e.g., "0" → "myapp").  
 
-**Killing a tmux session**: `tmux kill-session -t <session name>`  
-Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
-Removes the target session's entire workspace.   
-
 **Killing a pane in your current session**: `Control-a x y`  
 Alternatively `Control-d`, the default EOF signal.
 Closes the pane currently in focus.
 >**NB**: Technically, the kill-pane command `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.  
+
+**Killing a tmux session**: `tmux kill-session -t <session name>`  
+Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
+Removes the target session's entire workspace.   
 
 ###How2get
 
