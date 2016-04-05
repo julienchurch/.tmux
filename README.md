@@ -56,7 +56,7 @@ Lists all currently-open tmux sessions by their default ID or any unique name yo
 Reopens the target session with all your old panes and programs still running.  
 
 **Renaming a tmux session**: `tmux rename -t <old session name> <new session name>`  
-Pretty obvious.
+Changes numeric ID of session to something more descriptive (e.g., "my_app").
 
 **Killing a tmux session**: `tmux kill-session -t <session name>`  
 Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
