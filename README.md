@@ -59,7 +59,7 @@ Alternatively, `Control-d`, the default EOF signal.
 
 **Killing a pane in your current session**: `Control-a x y`  
 Alternatively `Control-d`, the default EOF signal.  
->**NB**: Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.  
+>**NB**: Technically, the kill-pane command `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.  
 
 ###How2get
 
