@@ -14,16 +14,20 @@ Makes two panes appear side-by-side in the tmux session.
 Makes two panes appear on top of one another in the tmux session.  
 
 **Focus left**: `Control-a h`  
-Alternatively, `Control-a ←`. Puts focus on the pane to the left of the current pane.  
+Alternatively, `Control-a ←`.  
+Puts focus on the pane to the left of the current pane.  
 
 **Focus right**: `Control-a l`  
-Alternatively, `Control-a →`. Puts focus on the pane to the right of the current pane.  
+Alternatively, `Control-a →`.  
+Puts focus on the pane to the right of the current pane.  
 
 **Focus above**: `Control-a k`  
-Alternatively, `Control-a ↑`. Puts focus on the pane above the current pane.  
+Alternatively, `Control-a ↑`.  
+Puts focus on the pane above the current pane.  
 
 **Focus below**: `Control-a j`  
-Alternatively, `Control-a ↓`. Puts focus on the pane below the current pane.  
+Alternatively, `Control-a ↓`.  
+Puts focus on the pane below the current pane.  
 
 **Resize**: `Control-a Control-<directional key>`  
 Where `<directional key>` can be any of the following values:  
