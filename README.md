@@ -4,35 +4,35 @@ Current setup includes remapping of default escape sequence, remapping of split 
 
 ## Basic commands remapped from default
 
-**Prefix command** `Control-a`  
+**Prefix command**: `Control-a`  
 Use this command to execute other shortcut commands.  
 
-**Split screen vertically** `Control-a \`  
+**Split screen vertically**: `Control-a \`  
 Makes two panes appear side-by-side in the tmux session.  
 
-**Split screen horizontally** `Control-a -`  
+**Split screen horizontally**: `Control-a -`  
 Makes two panes appear on top of one another in the tmux session.  
 
-**Focus left** `Control-a h`  
+**Focus left**: `Control-a h`  
 Alternatively, `Control-a ←`. Puts focus on the pane to the left of the current pane.  
 
-**Focus right** `Control-a l`  
+**Focus right**: `Control-a l`  
 Alternatively, `Control-a →`. Puts focus on the pane to the right of the current pane.  
 
-**Focus above** `Control-a k`  
+**Focus above**: `Control-a k`  
 Alternatively, `Control-a ↑`. Puts focus on the pane above the current pane.  
 
-**Focus below** `Control-a j`  
+**Focus below**: `Control-a j`  
 Alternatively, `Control-a ↓`. Puts focus on the pane below the current pane.  
 
-**Resize** `Control-a Control-<directional key>`  
+**Resize**: `Control-a Control-<directional key>`  
 Where `<directional key>` can be any of the following values:  
 * `h`: resize horizontally to the left  
 * `l`: resize horizontally to the right   
 * `k`: resize vertically upwards   
 * `j`: resize vertically downwards   
 
-**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
+>**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
 
 
 ## For Austin
