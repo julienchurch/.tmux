@@ -55,10 +55,10 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 **Renaming a tmux session**: `tmux rename -t <old session name> <new session name>`  
 
 **Killing a tmux session**: `tmux kill-session -t <session name>`  
-Alternatively, `Control-d`, the default EOF signal.  
+Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
 
 **Killing a pane in your current session**: `Control-a x y`  
-Alternatively `Control-d`, the default EOF signal.  
+Alternatively `Control-d`, the default EOF signal (can only used to kill the pane currently in focus).  
 >**NB**: Technically, the kill-pane command `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.  
 
 ###How2get
