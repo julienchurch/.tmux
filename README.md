@@ -13,17 +13,17 @@ Makes two panes appear side-by-side in the tmux session.
 **Split screen horizontally** `Control-a -`  
 Makes two panes appear on top of one another in the tmux session.  
 
-**Focus left** `Control-a h` (Alternatively `Control-a ←`)  
-Puts focus on the pane to the left of the current pane  
+**Focus left** `Control-a h`  
+Alternatively `Control-a ←`. Puts focus on the pane to the left of the current pane.  
 
-**Focus right** `Control-a l` (Alternatively `Control-a →`)  
-Puts focus on the pane to the right of the current pane  
+**Focus right** `Control-a l`  
+Alternatively, `Control-a →`. Puts focus on the pane to the right of the current pane.  
 
-**Focus above** `Control-a k` (Alternatively `Control-a ↑`)  
-Puts focus on the pane above the current pane  
+**Focus above** `Control-a k`  
+Alternatively, `Control-a ↑`. Puts focus on the pane above the current pane.  
 
-**Focus below** `Control-a j` (Alternatively `Control-a ↓`)  
-Puts focus on the pane below the current pane  
+**Focus below** `Control-a j`  
+Alternatively, `Control-a ↓`. Puts focus on the pane below the current pane.  
 
 **Resize** `Control-a Control-<directional key>`  
 Where `<directional key>` can be any of the following values:  
@@ -43,12 +43,18 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 ###Basic usage
 
 **Opening a tmux session** `tmux`  
+
 **Viewing open tmux sessions** `tmux ls`  
+
 **Attaching to a tmux session** `tmux attach -t <session name>`  
+
 **Renaming a tmux session** `tmux rename -t <old session name> <new session name>`  
-**Killing a tmux session** `tmux kill-session -t <session name>`  (Alternatively `Control-d`, the default EOF signal)   
-**Killing a pane in your current session** `Control-a x y` (Alternatively `Control-d`, the default EOF signal)   
-(Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.)  
+
+**Killing a tmux session** `tmux kill-session -t <session name>`  
+Alternatively, `Control-d`, the default EOF signal.  
+
+**Killing a pane in your current session** `Control-a x y` 
+Alternatively `Control-d`, the default EOF signal. (Technically, `Control-a x` brings up a dialog at the bottom of the screen and you confirm whether you want to close with `y`/`n`.)   
 
 ###How2get
 
