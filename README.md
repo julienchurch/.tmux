@@ -49,8 +49,8 @@ Also, anything surrounded by angle brackets (`<>`) is the general way of saying 
 **Opening a tmux session**: `tmux`  
 Opens a session and assigns to it a numeric ID (found in the bottom left-hand corner) that can be used to reopen it at a later time.
 
-**Viewing open tmux sessions**: `tmux ls`  
-Lists all currently-open tmux sessions by their default ID or any unique name you've given them.
+**Listing running tmux sessions**: `tmux ls`  
+Lists all currently-running tmux sessions by their default ID or any unique name you've given them.
 
 **Attaching to a tmux session**: `tmux attach -t <session name>`  
 Reopens the target session with all your old panes and programs still running.  
